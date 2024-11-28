@@ -1,0 +1,68 @@
+/* GLOBEL STYLES */
+html{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(bg-home-office-studio.jpg);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Links */
+a{
+    color:brown;
+}
+a:hover{
+color:rgba(203, 51, 117, 0.121)
+}
+footer a{
+    color:blue;
+}
+footer a:hover{
+    color:rgb(58, 20, 20)
+}                                                                                                                               
+.footer{
+    background-color: black;
+    color: white;
+}
+
+/* home */
+.home{
+    background-image:url(./project-biz-cards-1000px.jpg);
+
+}
+.home.content-wrapper{
+    background: rgb(rgb(58, 20, 20), green, blue);
+}
+.footer{
+    background-color:white;
+    color:black;
+}
+/*resume*/
+.resume header::before{
+    background-image: url(bg-home-office-studio.jpg);
+    display: block;
+    height: 300px;
+    content: "";
+    background-size: cover;
+}
+.resume-section{
+    margin-bottom: 5px;
+}
+.resume-section h1{
+    border-bottom: 2px dashed rgba(19, 15, 15, 0.137);
+}
+.socials{
+    list-style-type:none;
+    padding:20px;
+    margin-top: -50px;
+    margin-left:1200px;
+}
+.socials li{
+    display:inline-block;
+    padding:8px;
+}
+.socials img{
+    width:32px;
+}
+pre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,84 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(./DSC_0063.JPG);
+}
+
+header {
+    background-color:lightslategrey; /* Dark green */
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+.profile {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 200px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 170px;
+    align-items: center;
+}
+
+.profile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile li {
+    margin-bottom: 10px;
+}
+
+.profile a {
+    color: white;
+    text-decoration: none;
+}
+
+.about, .Summary {
+    background-color: #f2f2f2;
+    padding: 20px;
+    flex: 1;
+}
+
+.recent-projects table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.recent-projects th, .recent-projects td {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+.recent-projects th {
+    background-color: #f2f2f2;
+}
+.class{
+    background-color: aqua;
+}
